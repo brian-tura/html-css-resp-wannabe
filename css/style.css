@@ -135,3 +135,20 @@ img {
     }
     
 }
+
+@media screen and (max-width: 480px){
+
+    .row{
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
+    .lessons .col{
+        width: 90%;
+        margin-bottom: 90px;
+    }
+
+}
